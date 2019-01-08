@@ -16,5 +16,5 @@ client.loop_start()
 
 while True:
     time.sleep(2)
-    ok = client.publish("ima5/temp", randint(1, 11000))
+    ok = client.publish("ima5/temp", randint(1, 12000))
     

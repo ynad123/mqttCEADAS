@@ -64,5 +64,7 @@ process_connect2Server()
 
 while True:
     time.sleep(2)
+    ok = mqttClient.publish("t2", "ping")
+
 
 
